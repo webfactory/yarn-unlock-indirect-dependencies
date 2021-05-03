@@ -2,6 +2,9 @@
   "name": "yarn-unlock-indirect-dependencies",
   "version": "0.1.0",
   "main": "index.js",
+  "bin": {
+    "yarn-unlock-indirect-dependencies": "./index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@yarnpkg/lockfile": "^1.1.0"
